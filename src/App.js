@@ -14,19 +14,32 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
+<<<<<<< HEAD
         {isAuthenticated && <h3>Hello gee {user.name}</h3>}
+=======
+        {isAuthenticated && <h3>Welcome to DigiMark Developers {user.name}</h3>}
+        <p>We provied the world bes serves ever in this world</p>
+>>>>>>> d2cd208 (Your commit message here)
         {
           isAuthenticated ? <button onClick={e => logout()}>Logout</button> :<button onClick={e => loginWithRedirect()}>Login with react  </button>
         }
       
       </header>
+<<<<<<< HEAD
       <Routes>
+=======
+      {/* <Routes>
+>>>>>>> d2cd208 (Your commit message here)
          <Route path='/' element={<Home />} />
          <Route path='/login' element={<Login />} />
          <Route path='/details' element={<Details />} />
 
 
+<<<<<<< HEAD
        </Routes>
+=======
+       </Routes> */}
+>>>>>>> d2cd208 (Your commit message here)
     
 
 

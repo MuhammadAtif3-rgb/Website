@@ -9,12 +9,22 @@ import { BrowserRouter } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+<<<<<<< HEAD
     <Auth0Provider
       domain="dev-js4gcygvpvpf7toc.us.auth0.com"
       clientId="N4ZdisR5ywOeMKsdfLvcq2ZRs31JwzVd"
       authorizationParams={{
         redirect_uri: window.location.origin
       }}>
+=======
+   <Auth0Provider
+    domain="dev-vuyyljpqbt7cl0c3.us.auth0.com"
+    clientId="wqV17JSyPyKXIawDibRxN0BlvWQRFNU4"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
+  >
+>>>>>>> d2cd208 (Your commit message here)
       <App />
     </Auth0Provider>
 
